@@ -1,0 +1,20 @@
+BACKGROUND:
+----------
+I have been writing LPC for almost 20 years and it wasn't until
+just a few years ago that I discovered the builtin LPC syntax
+for Vim. Unfortunately, the $VIMRUNTIME/filetype.vim file
+only checks the first twelve lines to differentiate between
+a C language file and an LPC language file.
+
+I finally got tired of modding that file and decided to do
+something less hacky. I figured the least I could do is share
+this in the hopes that some other LPC coder out there can
+use it.
+
+I have tested this as a stand alone in .vim and as a Pathogen
+plugin and confirmed it works in both cases.
+
+Let me know if you have a feature request or send a pull
+request if you add something you think might be useful.
+
+Kellin <kellin@retromud.org>
